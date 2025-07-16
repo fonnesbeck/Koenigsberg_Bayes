@@ -16,7 +16,7 @@ This project contains a Bayesian analysis of job satisfaction data from the Gene
 
 Pixi is a modern package manager that handles all Python dependencies automatically.
 
-Open Terminal and run:
+Open Terminal in the project directory and run:
 ```bash
 curl -fsSL https://pixi.sh/install.sh | bash
 ```
