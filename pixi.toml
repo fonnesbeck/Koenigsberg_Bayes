@@ -7,13 +7,20 @@ version = "0.1.0"
 
 [tasks]
 jupyterlab = "jupyter lab"
+test = "pytest tests/ -q"
+test-slow = "pytest tests/ -q -m slow"
+lab = "jupyter lab"
+nb = "jupyter notebook"
 
 [dependencies]
-plotly = ">=6.2.0,<7"
 ipykernel = ">=6.29.5,<7"
-pymc = ">=5.23.0,<6"
-polars = ">=1.31.0,<2"
+pymc = ">=5.25.1,<6"
 jupyter = ">=1.1.1,<2"
 pyarrow = ">=20.0.0,<21"
 python-kaleido = ">=0.2.1,<0.3"
 nbformat = ">=5.10.0,<6"
+pandas = ">=2.3.2,<3"
+plotly = ">=6.3.0,<7"
+polars = ">=1.33.1,<2"
+pytest = ">=8.4.2,<9"
+arviz = ">=0.22.0,<0.23"
