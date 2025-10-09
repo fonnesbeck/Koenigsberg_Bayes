@@ -1,26 +1,14 @@
 [workspace]
 authors = ["Chris Fonnesbeck <fonnesbeck@gmail.com>"]
 channels = ["conda-forge"]
-name = "gssr-main"
-platforms = ["linux-64"]
+name = "Koenigsberg_Bayes"
+platforms = ["linux-64", "osx-64", "osx-arm64"]
 version = "0.1.0"
 
 [tasks]
-jupyterlab = "jupyter lab"
-test = "pytest tests/ -q"
-test-slow = "pytest tests/ -q -m slow"
-lab = "jupyter lab"
-nb = "jupyter notebook"
 
 [dependencies]
-ipykernel = ">=6.29.5,<7"
 pymc = ">=5.25.1,<6"
+pandas = ">=2.3.3,<3"
 jupyter = ">=1.1.1,<2"
-pyarrow = ">=20.0.0,<21"
-python-kaleido = ">=0.2.1,<0.3"
-nbformat = ">=5.10.0,<6"
-pandas = ">=2.3.2,<3"
-plotly = ">=6.3.0,<7"
-polars = ">=1.33.1,<2"
-pytest = ">=8.4.2,<9"
-arviz = ">=0.22.0,<0.23"
+plotly = ">=6.3.1,<7"
