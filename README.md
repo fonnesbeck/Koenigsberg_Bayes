@@ -12,6 +12,8 @@ This project contains a Bayesian analysis of job satisfaction data from the Gene
 
 ## Installation Guide
 
+**Judy: You have already installed this, so you can skip this section.**
+
 ### Step 1: Install Pixi Package Manager
 
 Pixi is a modern package manager that handles all Python dependencies automatically.
@@ -43,11 +45,12 @@ This will automatically:
    ```bash
    pixi run jupyter lab
    ```
-   This will open a web browser with the Jupyter interface.
+   This will open a web browser with the Jupyter interface. THIS IS NOT CONNECTED TO ANY REMOTE SERVER, SO NOTHING IS BEING UPLOADED OR SENT ANYWHERE.
 
 2. **Open the analysis notebook:**
-   - In Jupyter Lab, click on `gss_exploratory_analysis_working.ipynb`
-   - This contains the complete data analysis
+   - Look for the little folder icon at the top of the column of icons on the left. Click on this icon to open the file browser.
+   - In the file browser, click on `basic_bayes_analysis.ipynb`
+   - This contains the ordinal regression model
 
 3. **Run the analysis:**
    - Click "Run" → "Run All Cells" to execute the entire analysis
