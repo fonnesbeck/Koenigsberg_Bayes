@@ -50,8 +50,8 @@ This will automatically:
 
 2. **Open the analysis notebook:**
    - Look for the little folder icon at the top of the column of icons on the left. Click on this icon to open the file browser.
-   - In the file browser, click on `basic_bayes_analysis.ipynb`
-   - This contains the ordinal regression model
+   - Open the `notebooks/` folder and click on `03_basic_ordinal_regression.ipynb`
+   - This contains the ordinal regression model. Notebooks are numbered in the order they're meant to be read.
 
 3. **Run the analysis:**
    - Click "Run" → "Run All Cells" to execute the entire analysis
